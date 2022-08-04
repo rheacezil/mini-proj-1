@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@300;400;700&display=swap');
+
+/* Initial Setup */
+:root {
+    --lg-font: 'Dongle', sans-serif;
+    --sm-font: 'Poppins', sans-serif;
+}
+
+body {
+    font-family: var(--sm-font);
+}
+
+/* Navbar */
+nav {
+    background-color: #FFD24C;
+}
+
+nav a {
+    color: #232323 !important;
+}
+
+nav img {
+    height: 45px;
+    width: 45px;
+}
+
+#brand-name {
+    letter-spacing: 1px;
+    font-family: var(--lg-font);
+    font-size: 40px;
+    font-weight: 500;
+}
+
+/* Hero */
+#hero {
+    background-color: #FFD24C;
+}
+
+#hero .container {
+    padding-top: 90px;
+}
+
+#phone_mockup {
+    height: 500px;
+    transform: rotate(15deg);
+    padding-right: 100px;
+}
